@@ -1,0 +1,233 @@
+@font-face{
+    font-family:AlfaSlabOne;
+    src:url(../Fonts/AlfaSlabOne-Regular.ttf);
+}
+@font-face{
+    font-family:BebasNeue;
+    src:url(../Fonts/BebasNeue-Regular.ttf);
+}
+@font-face{
+    font-family:Montserrat;
+    src:url(../Fonts/Montserrat-Bold.otf);
+}
+.nav-link,.para,.five,.only,.tasty-button,p.details,.discover,p.reservation,.main-road span, .mail span,p.rights{
+    font-family: BebasNeue;
+}
+.burger,.week,p.heading,.order,.upcoming,.book,.button input{
+    font-family:AlfaSlabOne;  /*thick and bold*/
+}
+.about-heading,.sub-detail,.event-matter,p.info,.scooty span {
+    font-family:Montserrat;
+}
+input::placeholder{
+    font-family: BebasNeue;
+    font-size:20px;
+}
+
+
+
+/*header strats*/
+.header{
+    background-image: url(../images/bg.jpg);
+}
+.nav-link {
+    font-size: 24px;
+    color: #310d00;
+    letter-spacing: 3px;
+}
+ul.navbar-nav {
+    gap: 35px;
+}
+p.express {
+    padding-top: 15px;
+    padding-left: 15px;
+}
+div#navi {
+    justify-content: end;
+    align-items: center;
+}
+.good-time {
+    align-items: center;
+}
+.para {
+    font-size: 23px;
+    border: 3px dashed black;
+    margin-right: 42%;
+    padding: 5px 15px;
+}
+.burger {
+    font-size: 96px;
+    margin: 0px;
+    text-shadow: 4px 4px #ffe6b7;
+}
+.week {
+    font-size: 55px;
+    margin-top: -36px;
+    text-shadow: 4px 4px #ffe6b7;
+}
+.circle {
+    height: 175px;
+    width: 175px;
+    background-color: red;
+    border-radius: 100%;
+    position: relative;
+    left: 53%;
+    top: -179px;
+    margin-bottom: -125px;
+}
+.matter {
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    top: 14px;
+    right: 12px;
+    border: 3px dashed white;
+    border-radius: 100%;
+    padding: 10px;
+}
+p.five {
+    font-size: 45px;
+    color: #fff;
+}
+.five span {
+    font-size: 26px;
+}
+.only {
+    color: #fff;
+    font-size: 44px;
+    letter-spacing: 8px;
+    margin-top: -20px !important;
+}
+.burger-week {
+    color: #41210a;
+}
+.scooty {
+    position: absolute;
+    top:32px;
+}
+.scooty span {
+    font-size: 17px;
+}
+
+/*Burger images-3*/
+.burger-items-3 img{
+    border-radius:10px;
+}
+.tasty-button button {
+    background-color: #ffc236;
+    border-radius: 0px;
+    font-size: 25px;
+}
+
+/*choose & enjoy*/
+p.heading {
+    font-size: 62px;
+    color: #41210a;
+}
+p.about-heading{
+    font-size: 17px;
+    color: #2b0700;
+}
+p.details {
+    font-size: 38px;
+    letter-spacing: 1px;
+    color: #4b1d0d;
+}
+.order {
+    border-radius: 0px;
+    padding: 8px 35px;
+}
+.sub-detail {
+    color: #300500;
+}
+
+/*discover upcoming events*/
+.box{
+    box-shadow: 10px 10px 20px 10px #e7e8f3;
+}
+.discover {
+    font-size: 34px;
+    color: #313131;
+    letter-spacing: 2px;
+}
+.upcoming {
+    font-size: 47px;
+    color: #402009;
+}
+.event-matter {
+    font-size: 23px;
+    color: #383838;
+}
+.carousel-indicators [data-bs-target] {
+    height: 15px;
+    width: 15px;
+    border-radius: 100%;
+    margin-left: 10px;
+    background-color: grey;
+}
+.carousel-indicators {
+    justify-content: flex-start!important;
+    margin-left: 0%;
+}
+.carousel-indicators .active {
+    background-color: orange;
+}
+
+/*inputs section*/
+p.reservation {
+    font-size: 30px;
+    color: #3b1a04;
+    letter-spacing: 2px;
+}
+p.book {
+    font-size: 52px;
+    letter-spacing: 2px;
+    color: #472005;
+}
+.burger-side-img {
+    background: url(../images/burger_single.png) no-repeat 0px -65px;
+    background-size: 23%;
+}
+.form-control {
+    padding: 1.375rem 1.75rem;
+}
+.button input {
+    background-color: #de1c1c;
+    color: #fff;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+.row.bottle-inputs {
+    background: url(../images/burger_on_plate.png) no-repeat 100% 1%;
+}
+
+
+/*footer*/
+.footer .container{
+    background: url(../images/footer_bg.jpg) no-repeat 0px 0px;
+    background-size: 100%;
+}
+p.info {
+    color: #fff;
+}
+.main-road span, .mail span {
+    color: #fff;
+    font-size: 20px;
+}
+.main-road,.mail {
+    margin-left: 40%;
+}
+p.rights {
+    color: #d5d4cf;
+    font-size: 18px;
+}
+.address{
+    margin-bottom: 13%;
+}
+.footer-icons img{
+    margin-left:18px;
+}
+span.bi-c-circle {
+    padding: 5px;
+    font-size: 15px;
+}

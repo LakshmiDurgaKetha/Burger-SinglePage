@@ -1,0 +1,496 @@
+/*header section*/
+@media screen and (min-width:576px){
+    ul.navbar-nav {
+        gap: 0px;
+    }
+    .para {
+        margin: auto 10%;
+    }
+    .scooty {
+        position: absolute;
+        top: 80px;
+    }
+
+    .scooty span {
+        font-size: 16px;
+    }
+    .burger-week {
+        text-align: center;
+    }
+    .circle {
+        height: 150px;
+        width: 150px;
+        left:4%;
+    }
+    .matter {
+        height: 125px;
+        width: 125px;
+        top: 13px;
+    }
+    p.five {
+        font-size: 35px;
+    }
+    .only {
+        font-size: 40px;
+    }
+}
+
+@media screen and (min-width:768px){
+    .para {
+        margin: auto 21%;
+    }
+    .circle {
+        left: 7%;
+        top: -225px;
+    }
+}
+
+@media screen and (min-width:992px){
+    .circle {
+        left: 51%;
+        top: -160px;
+    }
+    .burger-week {
+        text-align: left;
+    }
+    .para {
+        margin: 0px;
+    }
+    .burger {
+        font-size: 90px;
+    }
+    .scooty {
+        top: 26px;
+    }
+}
+
+@media screen and (min-width:1200px){
+  /*  .scooty {
+        bottom: 2px;
+        left: 40%;
+    }*/
+    .para {
+        margin-left: 0px;
+    }
+}
+
+@media screen and (min-width:1400px){
+    .nav-link {
+        font-size: 24px;
+    }
+    ul.navbar-nav {
+        gap: 35px;
+    }
+    p.express {
+        padding-top: 15px;
+        padding-left: 15px;
+    }
+    .para {
+        font-size: 23px;
+        margin-right: 42%;
+        padding: 5px 15px;
+    }
+    .burger {
+        font-size: 96px;
+        margin: 0px;
+    }
+    .week {
+        font-size: 55px;
+        margin-top: -36px;
+    }
+    .circle {
+        height: 175px;
+        width: 175px;
+        left: 53%;
+        top: -179px;
+        margin-bottom: -125px;
+    }
+    .matter {
+        height: 150px;
+        width: 150px;
+        top: 14px;
+        right: 12px;
+        padding: 10px;
+    }
+    p.five {
+        font-size: 45px;
+    }
+    .five span {
+        font-size: 26px;
+    }
+    .only {
+        font-size: 44px;
+        margin-top: -20px !important;
+    }
+  /*  .scooty {
+        bottom: 17px;
+        left: 32%;
+    }*/
+    .scooty span {
+        font-size: 17px;
+    }
+}
+
+@media screen and (max-width:576px){
+    ul.navbar-nav {
+        gap: 0px;
+    }
+    .para {
+        margin: auto 7%;
+    }
+    /*.scooty {
+        bottom: -13px;
+        left: 1%;
+        margin-bottom: 20px;
+    }*/
+
+    .scooty {
+        top: 80px;
+    }
+
+    .scooty span {
+        font-size: 16px;
+    }
+    .burger-week {
+        text-align: center;
+    }
+    .circle {
+        height: 150px;
+        width: 150px;
+        left:4%;
+    }
+    .matter {
+        height: 125px;
+        width: 125px;
+        top: 13px;
+    }
+    p.five {
+        font-size: 35px;
+    }
+    .only {
+        font-size: 40px;
+    }
+}
+
+
+/*burger-items*/
+@media screen and (max-width:576px){
+    .burger-items-3 img {
+        margin:15px 0px;
+    }  
+}
+
+/*choose and enjoy*/
+@media screen and  (min-width:576px){
+    p.heading {
+        font-size: 50px;
+    }
+    p.about-heading {
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width:768px){
+    p.about-heading {
+        font-size: 20px;
+    }
+    p.details {
+        font-size: 30px;
+    }
+}
+
+@media screen and (min-width:992px){
+    .sub-detail {
+        font-size: 13px;
+    }
+    p.about-heading {
+        font-size: 17px;
+    }
+    p.details {
+        font-size: 35px;
+    }
+}
+
+@media screen and (min-width:1200px){
+    p.details {
+        font-size: 40px;
+    }
+    .sub-detail {
+        font-size: 17px;
+    }
+}
+
+@media screen and (max-width:576px){
+    p.heading {
+        font-size: 40px;
+    }
+    p.about-heading {
+        font-size: 19px;
+    }
+}
+
+/*carousel section*/
+@media screen and (min-width:576px){
+    .upcoming {
+        font-size: 40px;
+    }
+    .event-matter {
+        font-size: 18px;
+    }
+    .carousel-indicators {
+        justify-content: center !important;
+        margin: 0px auto;
+    }
+}
+
+@media screen and (min-width:768px){
+    .upcoming {
+        font-size: 40px;
+    }
+    .event-matter {
+        font-size: 24px;
+    }
+}
+
+@media screen and (min-width:992px){
+    .event-matter {
+        font-size: 16px;
+    }
+    .upcoming {
+        font-size: 37px;
+    }
+    .discover {
+        font-size: 30px;
+    }
+    .carousel-indicators {
+        justify-content: left !important;
+        margin: -10px 0px;
+    }
+}
+
+@media screen and (min-width:1200px){
+    .discover {
+        font-size: 40px;
+    }
+    .upcoming {
+        font-size: 40px;
+    }
+    .event-matter {
+        font-size: 19px;
+    }
+    .carousel-indicators {
+        margin: 0px;
+    }
+}
+
+@media screen and (min-width:1400px){
+    .upcoming {
+        font-size: 45px;
+    }
+    .event-matter {
+        font-size: 23px;
+    }
+}
+
+@media screen and (max-width:576px){
+    .upcoming {
+        font-size: 35px;
+    }
+    .event-matter {
+        font-size: 15px;
+    }
+    .carousel-indicators {
+        justify-content: center !important;
+        margin: 0% auto;
+    }
+}
+
+
+/*inputs section*/
+
+/*@media screen and (min-width:576px){
+    .burger-side-img {
+        background: url(../images/burger_single.png) no-repeat 1px 0px;
+        background-size: 30%;
+    }
+    p.book {
+        font-size: 30px;
+    }
+    p.reservation {
+        font-size: 28px;
+    }
+    .sauce-bottle{
+        text-align: center !important;
+    }
+    .row.bottle-inputs {
+        justify-content: center;
+    }
+}
+
+@media screen and (min-widt:768px){
+
+}
+
+@media screen and (min-width:992px){
+    p.reservation {
+        font-size: 35px;
+    }
+    p.book {
+        font-size: 45px;
+    }
+    .burger-side-img {
+        background: url(../images/burger_single.png) no-repeat 1px -37px;
+    }
+    .row.bottle-inputs {
+        justify-content: space-evenly;
+    }
+}
+
+@media screen and (min-width:1200px){
+
+}
+*/
+
+/*footer section*/
+@media screen and (min-width:576px){
+    .footer-logo img {
+        width:50%;
+        display: block;
+        margin:auto;
+    }
+    p.info {
+        font-size: 15px;
+        text-align: center;
+    }
+    .main-road img, .mail img{
+        width:7%;
+    }
+    .main-road span, .mail span {
+        font-size: 18px;
+    }
+    .address {
+        margin-bottom: 4%;
+    }
+    p.rights {
+        font-size: 20px;
+        text-align: center;
+    }
+    .last-icons {
+        text-align: center !important;
+        padding-bottom: 30px;
+    }
+    .footer .container {
+        background-size: 185%;
+    }
+}
+
+@media screen and (min-width:768px){
+    p.info {
+        font-size: 20px;
+    }
+    .main-road span, .mail span {
+        font-size: 20px;
+    }
+    p.rights {
+        font-size: 23px;
+    }
+    .footer .container {
+        background-size: 160%;
+    }
+}
+
+@media screen and (min-width:992px){
+    .footer-logo img {
+        margin: 0px;
+    }
+    p.info {
+        font-size: 12px;
+        text-align: left;
+    }
+    .main-road span, .mail span {
+        font-size: 17px;
+    }
+    p.rights {
+        font-size: 20px;
+        text-align: left;
+    }
+    .last-icons {
+        text-align: right !important;
+    }
+    .footer .container {
+        padding: 10px 26px 0px 40px;
+        margin-bottom: 25px;
+    }
+    .footer .container {
+        background-size: 100%;
+    }
+}
+
+@media screen and (min-width:1200px){
+    .footer-logo img {
+        width: 40%;
+    }
+    p.info {
+        font-size: 16px;
+    }
+    .main-road span, .mail span {
+        font-size: 20px;
+    }
+    p.rights {
+        font-size: 22px;
+    }
+}
+
+@media screen and (min-width:1400px){
+    .footer .container{
+        background-size: 100%;
+    }
+    .main-road span, .mail span {
+        font-size: 20px;
+    }
+    .main-road,.mail {
+        margin-left: 40%;
+    }
+    p.rights {
+        font-size: 18px;
+    }
+    .address{
+        margin-bottom: 13%;
+    }
+    .footer-icons img{
+        margin-left:18px;
+    }
+}
+
+@media screen and (max-width:576px){
+    .footer-logo img {
+        width: 50%;
+        display: block;
+        margin: auto;
+        padding: 10px;
+    }
+    p.info {
+        font-size: 13px;
+        text-align: center;
+    }
+    .main-road img, .mail img{
+        width:7%;
+    }
+    .main-road span, .mail span {
+        font-size: 18px;
+    }
+    .address {
+        margin-bottom: 4%;
+    }
+    p.rights {
+        font-size: 20px;
+        text-align: center;
+    }
+    .last-icons {
+        text-align: center !important;
+        padding-bottom: 30px;
+    }
+    .footer .container {
+        background-size: 185%;
+    }
+}
